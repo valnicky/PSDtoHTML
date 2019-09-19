@@ -59,7 +59,7 @@ header, nav {
 	height: 50px;	
 }
 
-.header1_container {
+.header1__container {
 	width:  90%;
 	max-width:  1200px;
 	margin: 0 auto;
@@ -201,7 +201,7 @@ main {
 	padding:  10px 25px;
 }
 
-.section1_box {
+.section1__box {
 	width:  45%;
 	float:  left;
 	margin:  0 2.5%;
@@ -209,7 +209,7 @@ main {
 	height:  100%;
 }
 
-.section1_box img, .section1_box video {
+.section1__box img, .section1__box video {
 	width:  100%;
 }
 
@@ -231,7 +231,7 @@ main {
 	list-style: none;
 }
 
-.section2 li p{
+.section2 .section2__text {
 	width:  65%;
 	margin:  0 auto;
 	line-height: 1.4em;
@@ -239,14 +239,14 @@ main {
 	padding-bottom: 25px;
 }
 
-.section2 h4, .section1_box h3 {
+.section2 h4, .section1__box h3 {
 	font-size:  0.9em;
 	color:  darkred;
 	text-transform: uppercase;
 	margin:  1em 0;
 }
 
-.section1_box p {
+.section1__box p {
 	line-height: 1.5em;
 	font-size:  1em;
 }
@@ -266,7 +266,7 @@ main {
 		display:  table-column;
 	}
 
-	.section1_box {
+	.section1__box {
 		display: block;
 		float: none;
 		margin: 0 auto;
@@ -277,7 +277,7 @@ main {
 			margin-top:  10px;
 			font-size: 1.5em;
 		}
-	.section2 li p {
+	.section2 .section2__text {
 			width:  100%;
 		}
 
@@ -311,10 +311,10 @@ main {
 			margin:  0;
 			width: 35%;
 		}
-		.section2 li p {
+		.section2 .section2__text {
 			width:  100%;
 		}
-		.section1_box {
+		.section1__box {
 			width:  70%;
 		}
 		.section1 {
@@ -355,7 +355,7 @@ main {
 		display:  none;
 	}
 
-	.header1_container {
+	.header1__container {
 		display:  none;
 	}
 	.menu {

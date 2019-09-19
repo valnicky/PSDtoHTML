@@ -1,0 +1,71 @@
+html,
+body,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+a,
+img,
+ul,
+li,
+ol,
+span,
+header,
+nav,
+footer,
+section,
+article,
+object,
+video {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    border: none;
+    background: transparent;
+    vertical-align: baseline;
+    font-family: 'OpenSans', Arial, serif;
+    color:  #1a1a1a;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+html, body {
+	overflow-x:  hidden;
+	width:  100%;
+}
+
+body {
+	padding: 0;
+	margin:  0;
+	font-size:  16px;
+}
+
+form .background-color {
+    background-color: #17A7D7;
+}
+/*******header*************/
+header, header .bg-dark, .section{
+	background-color: #001236 !important;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {  }

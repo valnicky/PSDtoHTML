@@ -90,30 +90,30 @@ header h1 {
 	text-align:  left;
 	width: 35%;
 }
-.header_links {
+.header__links {
 	text-align:  right;
 	width: 60%;
 	position: relative;
 }
 
-header h1, header .header_links {
+header h1, header .header__links {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-header .header_links .linkA, header .header_links .linkB {
+header .header__links .linkA, header .header__links .linkB {
 	border:  1px solid grey;
 	padding: 1em;
 	vertical-align: middle;
 	display: inline-block;
 }
 
-header .header_links .linkA {
+header .header__links .linkA {
 	padding: 0.50em 1.07em;
 	margin-right: 0.5em;
 }
 
-header .header_links .linkB {
+header .header__links .linkB {
 	padding:  1.8em;
 	background-color: #0A335E;
 }
@@ -307,7 +307,7 @@ section img {
 		margin-left:  1em;
 	}
 
-	header .header_links .linkB {
+	header .header__links .linkB {
 		padding: 1.2em 2em ;
 	}
 	.linkB:focus + .nav {
@@ -353,7 +353,7 @@ section img {
 		margin-right:  1em;
 	}
 
-	.header_links {
+	.header__links {
 		width:  89%;
 	}
 
@@ -361,7 +361,7 @@ section img {
 		width:  10%;
 	}
 
-	.header_links--upper {
+	.header__links--upper {
 		text-transform: uppercase;
 	}
 
