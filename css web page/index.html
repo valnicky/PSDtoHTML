@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Css web project</title>
+    <style>
+      
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+* {
+  box-sizing: content-box;
+}
+/*header*/
+header,
+.navbar {
+  width: 100%;
+}
+.header,
+footer {
+  width: 100%;
+  height: 45px;
+  background-color: #000;
+  color: #ffe;
+  font-family: Arial;
+}
+.list li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+.borderR {
+  border-right: 0.5px solid #ffe;
+}
+/**/
+.wrapper {
+  width: 100%;
+}
+h2 {
+  color: #5e5e5e;
+  margin: 20px 20px 5px 0;
+  font-size: 1.1em;
+}
+.list {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: #ffe;
+  text-align: center;
+  padding: 1em 1.2em;
+}
+li a:hover:not(active) {
+  background-color: lightblue;
+   color: #000;
+}
+.active {
+  background-color: #0099ff;
+}
+
+#section__blue {
+  float: left;
+  margin: 0;
+  display: inline-block;
+  width: 24%;
+  background-color: lightblue;
+}
+#section__yellow {
+  float: left;
+  margin: 0;
+  display: inline-block;
+  width: 24%;
+  background-color: yellow;
+}
+#section__white {
+  float: left;
+  margin: 0;
+  display: inline-block;
+  width: 40%;
+}
+.section {
+  margin: 0;
+  padding: 1em;
+}
+footer {
+  clear: both;
+  text-align: center;
+  padding: 4px;
+}
+/*media queries*/
+@media screen and (max-width: 840px) {
+  #section__blue,
+  #section__white {
+    display: inline-block;
+    width: 41%;
+  }
+
+  #section__yellow {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 470px) {
+  #section__white,
+  #section__blue,
+  #section__yellow {
+    display: block;
+    width: 100%;
+  }
+  #section__white {
+    order: 1;
+  }
+  #section__blue {
+    order: 2;
+  }
+  #section__yellow {
+    order: 3;
+  }
+  .header {
+    height: 194px;
+  }
+  .navbar ul li {
+    display: block;
+    padding-top: 1em;
+    text-align: center;
+  }
+  .navbar ul li a {
+    border-bottom: 0.7px solid #ffd;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="navbar">
+          <ul class="list">
+            <li class="borderR"><a href="#">Home</a></li>
+            <li class="borderR"><a href="#">About</a></li>
+            <li class="borderR"><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <div id="section__blue" class="section"><h2>First lines</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu dui, ultricies rutrum tincidunt quis, facilisis ut nibh. Suspendisse dignissim euismod lectus, quis porta arcu tincidunt id. Curabitur pharetra efficitur ultricies. Phasellus
+          placerat sapien ac ex interdum, a aliquet ligula bibendum. Ut faucibus lectus in consectetur fermentum. Vivamus quam dolor, pellentesque vitae tincidunt et, tempus dignissim elit. Donec accumsan sem sed urna luctus, hendrerit vehicula ipsum porttitor.
+        Aenean iaculis, enim non congue fringilla, magna tellus porttitor ligula, ut consequat massa neque ut orci.</div>
+        <div id="section__white" class="section"><h2>Welcome!</h2>Phasellus aliquam iaculis magna, non finibus lacus. Proin vitae vehicula eros, at commodo nulla. Morbi sit amet posuere purus, at porta libero. Sed non pulvinar nibh, sit amet sagittis diam. Vivamus ultricies neque vel lectus pretium pellentesque.
+          Mauris vitae magna erat. Vivamus venenatis nisi non velit volutpat imperdiet. Vivamus maximus arcu nisl, ac imperdiet turpis tempus non. Nulla vitae sem a justo elementum porta. Nam et mauris at nisl hendrerit iaculis ac dictum nibh. Pellentesque
+        ut erat non lectus blandit dapibus nec at mauris. Proin maximus, eros at rutrum iaculis, augue ante ultricies libero, id placerat mauris felis posuere risus. Aliquam sapien lacus, porta eget volutpat sed, dignissim a lacus. </div>
+        <div id="section__yellow" class="section"><h2>Right Column</h2> Nam nisi justo, accumsan sit amet molestie quis, maximus ac augue. Aliquam lectus sem, blandit quis porttitor non, tempus in augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis vestibulum orci
+          nec gravida condimentum. Ut interdum commodo posuere. Nam luctus odio ante, ut hendrerit nisl dignissim ac. Duis molestie eleifend faucibus. Curabitur in neque aliquet, vehicula justo semper, vestibulum sapien. Sed quam ex, faucibus vel sodales
+        ut, vehicula ultrices libero. Sed dictum auctor orci, nec aliquam leo luctus et. Nullam dapibus blandit tortor quis malesuada.</div>
+      </section>
+    <footer>Footer</footer>
+  </div>
+</body>
+</html>
