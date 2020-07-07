@@ -19,7 +19,7 @@ function init() {
 function toggleFunc() {
     const menubf = document.querySelector('.menu');
     menubf.addEventListener('click', () => {
-        const list2 = document.querySelector('.list2');
+        const list2 = document.querySelector('.header2 .list2');
         if (list2.style.display === 'none';) {
             list2.style.display = 'block';
         }
