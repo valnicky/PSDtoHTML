@@ -1,17 +1,23 @@
-$(document).ready(init);
+$(document).ready(main);
 
-/*function init() {
-	let btnLinkHeader = document.querySelector('.linkB');
-
-	btnLinkHeader.addEventListener('click', function () {
-
-		btnLinkHeader.classList.toggle('addStyle', 'nav');
-	});
-}*/
 var contador = 1;
 
-function init() {
+function main() {
 	$('.linkB').click(function () {
-		$('nav').toggle();
-	})
-}
+		// $('nav').toggle(); 
+
+		if (contador == 1) {
+			$('.nav__bottom').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('.nav__bottom').animate({
+				left: '-100%'
+			});
+		}
+
+	});
+
+};
