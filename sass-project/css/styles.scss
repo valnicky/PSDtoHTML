@@ -1,0 +1,20 @@
+@import "reset";
+
+@import "phone-default";
+
+@media only screen and (min-width: 720px) {
+    @import "tablet";
+}
+
+@media only screen and (min-width: 1100px) {
+    @import "desktop";
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
