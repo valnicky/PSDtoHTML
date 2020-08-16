@@ -1,0 +1,16 @@
+/*------------ INSIDE THE WRAPPERS ---------------*/
+header,
+nav,
+main,
+footer {
+    max-width: 1028px;
+    margin: 0 auto;
+}
+
+
+/*----------- HEADER ----------------*/
+header {
+    position: relative;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}

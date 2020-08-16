@@ -133,10 +133,58 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: none;
+  /*----------- BODY ----------------*/
+}
+
+html body {
+  font-size: 16px;
+  /*---------- HEADER -----------------*/
+  /*---------- SOCIAL -----------------*/
+}
+
+html body .social {
+  float: right;
+  padding-top: .5em;
+  z-index: 99;
+}
+
+html body .social li {
+  float: right;
+}
+
+html body .social li a {
+  display: block;
+  padding-left: 10px;
+}
+
+html body nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 44px;
+  width: 100%;
+}
+
+html body .clearfix:after {
+  constent: "";
+  display: table;
+  clear: both;
+}
+
 @media only screen and (min-width: 720px) {
-  h1 {
-    color: green;
+  /*------------  HEADER ---------------*/
+  header .logo img {
+    width: auto;
   }
+  /*------------ SOCIAL ---------------*/
 }
 
 body {
