@@ -9,11 +9,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@407;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-
+    <script>
+        $(document).ready(function () {
+            $(".nav-button").click(function () {
+                $(".nav-button, .primary-nav").toggleClass("open");
+            });
+        });
+    </script>
 </head>
 
 <body>
-    <header>
+    <header class="clearfix">
         <div class="logo">
             <img src="images/logo.png" alt="logo">
             <h1>Aspen Dental</h1>
@@ -27,7 +33,8 @@
         </ul>
 
         <nav>
-            <ul>
+            <ul class="primary-nav">
+                <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="repair.html">Repair Options</a></li>
                 <li><a href="prevention.html">Prevention</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -39,6 +46,61 @@
     </header>
 
     <main>
+        <div class="row">
+            <div class="column width12">
+                <h1>Home</h1>
+            </div><!-- end of column -->
+        </div><!-- end row -->
+
+
+
+        <div class="row">
+
+            <div class="column">
+                <h2>X-rays</h2>
+                <img src="photos/xray.png" alt="" />
+                <p>X-rays are a vital and necessary part of dental diagnostic process. Without them, certain dental conditions can and will be missed. X-rays detect much more than cavities. With an x-ray the dentist can survey erupting teeth, diagnose bone diseases, evaluate the results of an injury, or plan orthodontic treatment. If dental problems are found and treated early, dental care is more comfortable and affordable.
+                    We are particularly careful to minimize the exposure of their patients to radiation. With contemporary safeguards, the amount of radiation received in a dental x-ray examination is extremely small. The risk is negligible. In fact, the dental radiographs represent a far smaller risk than an undetected and untreated dental problem. Lead body aprons and shields are used as a protection. We use digital equipment which filters out unnecessary x-rays and restricts the x-ray to the area of interest.</p>
+            </div><!-- end of column -->
+
+
+            <div class="column">
+                <h2>Sports</h2>
+                <img src="photos/sports.png" alt="" />
+                <p>Sports guards are not something we always think about when you or your child are out on the field. An athlete is 60 times more likely to suffer harm to the teeth. When choosing a sports guard, find one that fits properly and comfortable, is resilient and tear resistant, easy to clean and doesn’t restrict speech or breathing. For more questions be sure to ask us at your next visit or call and make an appointment today.</p>
+            </div><!-- end of column -->
+
+
+            <div class="column">
+                <h2>Fluoride</h2>
+                <img src="photos/floride.png" alt="" />
+                <p>Fluoride is a mineral that occurs naturally in all water sources, including the oceans. Research has shown that fluoride not only prevents cavities in children and adults, it also helps repair the early stages of tooth decay even before the decay is visible. During childhood, when teeth are still forming, fluoride works by making tooth enamel more resistant to the acid that causes tooth decay. For adolescents and adults, the benefits are just as great. Fluoride helps repair or re-mineralize areas where the acid attacks have already begun. For older adults, fluoride has been effective in reducing tooth decay along the gum line (often called "root" caries).</p>
+            </div><!-- end of column -->
+
+        </div><!-- end row -->
+
+
+
+
+
+
+        <div class="row">
+            <div class="column">
+                <p></p>
+            </div><!-- end of column -->
+
+            <div class="column">
+                <h2>Pregnancy?</h2>
+                <img src="photos/baby.png" alt="" />
+                <p>During Pregnancy, your hormone levels rise considerably. Gingivitis is especially common during the second through the eighth months of pregnancy. Gingivitis may cause red, puffy, or tender gums that tend to bleed easily. If serious enough it could lead to periodontal disease. It is important to brush thoroughly twice a day with a fluoride toothpaste and floss. Keeping a healthy diet while pregnant will help prevent tooth decay and keeps you and your baby healthy.</p>
+            </div><!-- end of column -->
+
+            <div class="column">
+                <p></p>
+            </div><!-- end of column -->
+
+
+        </div><!-- end row -->
 
     </main>
 
@@ -53,13 +115,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function () {
-            $(".nav-button").click(function () {
-                $(".nav-button, .primary-nav").toggleClass("open");
-            });
-        });
-    </script>
+
 </body>
 
 </html>

@@ -1,12 +1,15 @@
-/*------------  HEADER ---------------*/
-header .logo img {
-    width: auto;
-}
+@media only screen and (min-width: 720px) {
+
+    /*------------  HEADER ---------------*/
+    header .logo img {
+        width: auto;
+    }
 
 
 
-/*------------ SOCIAL ---------------*/
-header .social {
-    position: relative;
-    float: right;
+    /*------------ SOCIAL ---------------*/
+    header .social {
+        position: relative;
+        float: right;
+    }
 }

@@ -174,16 +174,18 @@ html body nav {
 }
 
 html body .clearfix:after {
-  constent: "";
+  content: "";
   display: table;
   clear: both;
 }
 
 @media only screen and (min-width: 720px) {
+
   /*------------  HEADER ---------------*/
   header .logo img {
     width: auto;
   }
+
   /*------------ SOCIAL ---------------*/
 }
 
@@ -191,4 +193,5 @@ body {
   margin: 0;
   padding: 0;
 }
+
 /*# sourceMappingURL=styles.css.map */
