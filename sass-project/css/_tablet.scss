@@ -31,6 +31,10 @@
         }
     }
 
+    /*---------  NEWSPAPER STYLE COLUMNS -----------------*/
+    .multicol {
+        @include columns(2, $dkgrey);
+    }
 
 
 }

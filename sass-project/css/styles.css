@@ -1,6 +1,7 @@
 /*----------- COLORS ----------------*/
 /*----------- FONT FAMILY ----------------*/
 /*----------- GUTTER  ----------------*/
+/*---------  SCSS MIXIN for MULTIPLE COLUMNS    -------------*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -340,6 +341,15 @@ footer a {
     float: left;
     width: 50%;
   }
+  /*---------  NEWSPAPER STYLE COLUMNS -----------------*/
+  .multicol {
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 2%;
+    column-gap: 2%;
+    -webkit-column-rule: 1px outset #858585;
+    column-rule: 1px outset #858585;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -386,6 +396,17 @@ footer a {
   }
   nav ul li.active a {
     border-top: solid 3px #a8c6ef;
+  }
+  /*end nav*/
+  /*--------   MAIN  ----------*/
+  /*---------  NEWSPAPER STYLE COLUMNS -----------------*/
+  .multicol {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 2%;
+    column-gap: 2%;
+    -webkit-column-rule: 1px outset #858585;
+    column-rule: 1px outset #858585;
   }
 }
 

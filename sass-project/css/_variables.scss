@@ -21,3 +21,19 @@ $heavy: 700;
 
 /*----------- GUTTER  ----------------*/
 $gutter: 2%;
+
+
+/*---------  SCSS MIXIN for MULTIPLE COLUMNS    -------------*/
+@mixin columns($count, $line_color) {
+    -webkit-column-count: $count;
+    -moz-column-count: $count;
+    column-count: $count;
+
+    -webkit-column-gap: $gutter;
+    -moz-column-gap: $gutter;
+    column-gap: $gutter;
+
+    -webkit-column-rule: 1px outset $line_color;
+    -moz-column-rule: 1px outset $line_color;
+    column-rule: 1px outset $line_color;
+}

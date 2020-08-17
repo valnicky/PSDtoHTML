@@ -52,4 +52,16 @@
             border-top: solid 3px $menu-color;
         }
     }
+
+    /*end nav*/
+
+    /*--------   MAIN  ----------*/
+
+    /*---------  NEWSPAPER STYLE COLUMNS -----------------*/
+    .multicol {
+        @include columns(3, $dkgrey);
+    }
+
+
+
 }
