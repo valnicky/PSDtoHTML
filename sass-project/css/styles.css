@@ -242,6 +242,37 @@ main a {
 }
 
 /* end of main */
+/*----  SUB NAV    -----*/
+.subnav-link, .subnav-link:hover, .subnav-active {
+  display: block;
+  float: left;
+  width: 25%;
+  margin: 2em 0 0 0;
+  padding: .5em 1em .2em 1em;
+  color: #858585;
+  border: solid 1px #ecbc4d;
+  text-decoration: none;
+  border-radius: 10px 10px 0 0;
+  -webkit-transition: background ease .5s;
+  transition: background ease .5s;
+}
+
+.subnav-link {
+  background-color: #f0f0f3;
+}
+
+.subnav-link:hover {
+  background-color: #ecbc4d;
+}
+
+.subnav-active {
+  background-color: #a8c6ef;
+}
+
+.hideSmall {
+  display: none;
+}
+
 /*----   COLUMNS   ------*/
 main .row {
   clear: both;

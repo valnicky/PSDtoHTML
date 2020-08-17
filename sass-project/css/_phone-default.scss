@@ -110,6 +110,40 @@ main {
 
 /* end of main */
 
+/*----  SUB NAV    -----*/
+%subnav {
+    display: block;
+    float: left;
+    width: 25%;
+    margin: 2em 0 0 0;
+    padding: .5em 1em .2em 1em;
+    color: $dkgrey;
+    border: solid 1px $orange;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    transition: background ease .5s;
+
+}
+
+.subnav-link {
+    @extend %subnav;
+    background-color: $ltgrey;
+}
+
+.subnav-link:hover {
+    @extend %subnav;
+    background-color: $orange;
+}
+
+.subnav-active {
+    @extend %subnav;
+    background-color: $blue;
+}
+
+.hideSmall {
+    display: none;
+}
+
 /*----   COLUMNS   ------*/
 main {
     .row {
