@@ -16,7 +16,7 @@
         left: $gutter;
         width: 100px;
         height: 35px;
-        background: url('images/menuOpen.png'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
+        background: url('../images/menuOpen.png'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
         background-position: center center;
         background-repeat: no-repeat;
         background-size: auto;
@@ -35,7 +35,7 @@
     }
 
     .nav-button.open {
-        background: url('images/menuClose.png'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
+        background: url('../images/menuClose.png'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
         background-position: center center;
         background-repeat: no-repeat;
         background-size: auto;
