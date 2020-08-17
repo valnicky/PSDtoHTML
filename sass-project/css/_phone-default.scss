@@ -82,6 +82,7 @@ main {
         color: $h2_color;
         padding-top: .5em;
         font-weight: $heavy;
+        clear: both;
     }
 
     h3 {
@@ -143,6 +144,27 @@ main {
 .hideSmall {
     display: none;
 }
+
+/*---------- LISTS   ----------*/
+@mixin a_list() {
+    background-repeat: no-repeat;
+    padding: .5em 0 .5em 1.5em;
+    background-position: left center;
+    margin-left: 1em;
+}
+
+ul.list-check-yes li {
+    background-image: url(../images/check1.png);
+    @include a_list();
+}
+
+ul.list-check-no li {
+    background-image: url(../images/check2.png);
+    @include a_list();
+}
+
+
+
 
 /*----   COLUMNS   ------*/
 main {
