@@ -149,6 +149,7 @@ html {
 /*----------- BODY ----------------*/
 body {
   font-size: 16px;
+  font-family: "Quicksand", sans-serif;
 }
 
 /*---------- HEADER -----------------*/
@@ -170,6 +171,7 @@ header .logo img {
   width: 200px;
 }
 
+/*end of header*/
 /*---------- SOCIAL -----------------*/
 .social {
   float: right;
@@ -186,6 +188,7 @@ header .logo img {
   padding-left: 10px;
 }
 
+/* navigation */
 nav {
   position: absolute;
   top: 0;
@@ -193,6 +196,59 @@ nav {
   background-color: #a8c6ef;
   height: 44px;
   width: 100%;
+}
+
+/* MAIN  */
+main {
+  display: block;
+  min-height: 25em;
+}
+
+main h1 {
+  font-size: 3em;
+  color: #a47027;
+  padding-top: .75em;
+  font-weight: 700;
+}
+
+main h2 {
+  font-size: 2em;
+  color: #ecbc4d;
+  padding-top: .5em;
+  font-weight: 700;
+}
+
+main h3 {
+  font-size: 1.5em;
+  color: #a8c6ef;
+  padding-top: .5em;
+  font-weight: 700;
+}
+
+main p {
+  font-size: 1em;
+  color: #858585;
+  padding-top: .4em;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+main strong {
+  font-weight: 700;
+}
+
+main a {
+  color: #a47027;
+}
+
+/* end of main */
+/*----   COLUMNS   ------*/
+main .row {
+  clear: both;
+}
+
+main .column {
+  padding: 0 2%;
 }
 
 /*-----------Footer---------------*/
@@ -224,6 +280,12 @@ footer a {
   header .social {
     position: relative;
     float: right;
+  }
+  /*--------   MAIN    ------------*/
+  /*--------   COLUMNS    ------------*/
+  main .width6 {
+    float: left;
+    width: 50%;
   }
 }
 

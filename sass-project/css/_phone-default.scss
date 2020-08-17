@@ -11,9 +11,8 @@ html {
 /*----------- BODY ----------------*/
 body {
     font-size: 16px;
+    font-family: $default_font_family;
 }
-
-
 
 
 /*---------- HEADER -----------------*/
@@ -37,6 +36,8 @@ header {
 
 }
 
+/*end of header*/
+
 /*---------- SOCIAL -----------------*/
 .social {
     float: right;
@@ -54,7 +55,7 @@ header {
 }
 
 
-
+/* navigation */
 nav {
     position: absolute;
     top: 0;
@@ -63,6 +64,63 @@ nav {
     height: 44px;
     width: 100%;
 }
+
+/* MAIN  */
+main {
+    display: block;
+    min-height: 25em;
+
+    h1 {
+        font-size: 3em;
+        color: $h1_color;
+        padding-top: .75em;
+        font-weight: $heavy;
+    }
+
+    h2 {
+        font-size: 2em;
+        color: $h2_color;
+        padding-top: .5em;
+        font-weight: $heavy;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        color: $h3_color;
+        padding-top: .5em;
+        font-weight: $heavy;
+    }
+
+    p {
+        font-size: 1em;
+        color: $text-color;
+        padding-top: .4em;
+        font-weight: $normal;
+        line-height: 130%;
+    }
+
+    strong {
+        font-weight: $heavy;
+    }
+
+    a {
+        color: $link_color;
+    }
+}
+
+/* end of main */
+
+/*----   COLUMNS   ------*/
+main {
+    .row {
+        clear: both;
+    }
+
+    .column {
+        padding: 0 $gutter;
+    }
+}
+
 
 /*-----------Footer---------------*/
 footer {
