@@ -36,5 +36,13 @@
         @include columns(2, $dkgrey);
     }
 
+    @for $i from 1 through 12 {
+        $w: ($i / 12) *100%;
+
+        .large-#{$i} {
+            width: $w;
+            float: left;
+        }
+    }
 
 }
