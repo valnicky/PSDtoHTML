@@ -1,5 +1,6 @@
-@import "variables";
 @import "reset";
+
+@import "variables";
 
 @import "phone-default";
 
@@ -8,8 +9,3 @@
 @import "desktop";
 
 @import "mobilemenu";
-
-body {
-    margin: 0;
-    padding: 0;
-}
